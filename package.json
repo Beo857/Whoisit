@@ -1,0 +1,19 @@
+{
+  "name": "whoisit",
+  "version": "1.0.0",
+  "description": "locate phone numbers",
+  "main": "whoisit.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "phone",
+    "number",
+    "location"
+  ],
+  "author": "Beo",
+  "license": "ISC",
+  "dependencies": {
+    "querying-number-location": "^2.0.4"
+  }
+}

